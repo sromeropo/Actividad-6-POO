@@ -314,7 +314,7 @@ public class CRUD {
                 // Deleting the temporary file
                 tmpFile.delete();
                 JOptionPane.showMessageDialog(new JFrame(),
-                        "Friend deleted");
+                        "Contacto eliminado");
                 ///System.out.println(" Friend deleted. ");
             }
  
@@ -327,7 +327,7 @@ public class CRUD {
  
                 // Print the message
                 JOptionPane.showMessageDialog(new JFrame(),
-                        "Input name does not exists");
+                        "El contacto no existe");
                 //System.out.println(" Input name"
                 //                   + " does not exists. ");
             }
